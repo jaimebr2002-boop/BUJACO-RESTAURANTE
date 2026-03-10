@@ -16,7 +16,9 @@ import {
   X,
   ArrowDown,
   ExternalLink,
-  UtensilsCrossed
+  UtensilsCrossed,
+  Facebook,
+  Mail
 } from 'lucide-react';
 
 // --- Components ---
@@ -627,6 +629,7 @@ const Footer = () => {
             <p className="text-white/60 text-sm mb-2">Pl. Mayor, 28</p>
             <p className="text-white/60 text-sm mb-2">10003 Cáceres</p>
             <p className="text-white/60 text-sm">656 94 79 49</p>
+            <a href="mailto:bujacorestaurante@gmail.com" className="text-gold text-sm hover:underline">bujacorestaurante@gmail.com</a>
           </div>
           
           <div>
@@ -642,8 +645,9 @@ const Footer = () => {
             © {new Date().getFullYear()} Bujaco Restaurante – Todos los derechos reservados
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-white/20 hover:text-gold transition-colors"><UtensilsCrossed size={18} /></a>
-            <a href="#" className="text-white/20 hover:text-gold transition-colors"><MapPin size={18} /></a>
+            <a href="https://www.facebook.com/people/Bujaco-Restaurante/61587261117356/" target="_blank" rel="noopener noreferrer" className="text-white/20 hover:text-gold transition-colors"><Facebook size={18} /></a>
+            <a href="mailto:bujacorestaurante@gmail.com" className="text-white/20 hover:text-gold transition-colors"><Mail size={18} /></a>
+            <a href="#visitanos" className="text-white/20 hover:text-gold transition-colors"><MapPin size={18} /></a>
           </div>
         </div>
       </div>
